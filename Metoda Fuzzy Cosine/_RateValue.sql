@@ -1,0 +1,2 @@
+DROP FUNCTION `DoMLiked`;
+CREATE DEFINER=`glebels_root`@`localhost` FUNCTION `DoMLiked`(`ocena` INT) RETURNS DOUBLE DETERMINISTIC NO SQL SQL SECURITY DEFINER return (ocena-1)/4

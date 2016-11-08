@@ -1,0 +1,1 @@
+update FK_Filmy_Filmy set FuzzySimilarity = FuzzySimilarity(id_film, id_film2) limit 10;
